@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@800&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: #0c0d22;
+}
+
+a {
+
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited {
+
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Volver al index */
+
+.volver {
+
+    height: 30px;
+    position: relative;
+    top: 11px;
+    right: 100px;
+
+}
+
+/* Nav bar */
+.menu {
+
+    background: #fbf8fb;
+    background: linear-gradient(180deg, #fbf8fb 0%, #b8bbc1 100%);
+    height: 50px;
+    width: 1367px;
+    display: flex;
+    z-index: 500;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid #8b9598;
+    box-shadow: 0px 10px 28px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 10px 28px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 28px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+/* Titulo en el nav bar */
+.titulo-playlist {
+
+    font-family: 'Epilogue', sans-serif;
+    position: relative;
+    right: 90px;
+    bottom: 5px;
+    font-weight: 600;
+
+}
+
+/* Imagen de la bateria */
+.bateria {
+
+    position: relative;
+    left: 1280px;
+    top: 4px;
+    height: 40px;
+}
+
+/* imagen del boton de play */
+.boton-play {
+
+    position: relative;
+    left: 1150px;
+    top: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Portada de la cancion */
+
+.ultimoTour {
+
+    height: 300px;
+
+    transform: skewY(-5deg);
+    position: relative;
+    top: 170px;
+    left: 200px;
+}
+
+/* Titulo, album y artistas */
+
+.titulo {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 35px;
+    position: relative;
+    left: 570px;
+    bottom: 90px;
+    color: #cfcfcf;
+
+}
+
+.album {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: 570px;
+    bottom: 70px;
+    color: #cfcfcf;
+
+}
+
+.artistas {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: 570px;
+    bottom: 80px;
+    color: #cfcfcf;
+
+}
+
+/* El reproductor de audio */
+
+audio {
+
+    position: relative;
+    width: 1000px;
+    left: 190px;
+    top: 80px;
+    background: transparent;
+}
+
+
+/* Letras / lyrics */
+
+.letras {
+
+    font-family: 'Epilogue', sans-serif;
+    text-align: center;
+    width: 500px;
+    color: #cfcfcf;
+    position: relative;
+    left: 420px;
+    top: 154px;
+
+
+}
+
+/* Footer */
+
+footer {
+
+    position: relative;
+    top: 150px;
+    height: 120px;
+    margin-top: 1.5em;
+    background: #371920;
+
+}

@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@800&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited {
+
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Nav bar */
+.menu {
+
+    background: #fbf8fb;
+    background: linear-gradient(180deg, #fbf8fb 0%, #b8bbc1 100%);
+    height: 50px;
+    width: 1367px;
+    display: flex;
+    z-index: 500;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid #8b9598;
+    box-shadow: 0px 10px 28px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 10px 28px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 28px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+/* Titulo en el nav bar */
+.titulo-playlist {
+
+    font-family: 'Epilogue', sans-serif;
+    position: relative;
+    right: 90px;
+    bottom: 5px;
+    font-weight: 600;
+
+}
+
+/* Imagen de la bateria */
+.bateria {
+
+    position: relative;
+    left: 1280px;
+    top: 4px;
+    height: 40px;
+}
+
+/* imagen del boton de play */
+.boton-play {
+
+    position: relative;
+    left: 1150px;
+    top: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+/* Esta es la primera cancion */
+.ultimoTour {
+
+    position: relative;
+    top: 50px;
+    height: 200px;
+
+}
+
+.tituloPrimeraCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    left: 220px;
+    bottom: 150px;
+}
+
+.artistasPrimeraCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 24px;
+    color: #6b6869;
+    position: relative;
+    left: 220px;
+    bottom: 150px;
+}
+
+.primeraCancion {
+
+    background-color: #e4e4e4;
+    height: 250px;
+    border-bottom: 1px solid #8b9598;
+    cursor: pointer;
+}
+
+.primeraCancion:hover {
+
+    background: #49bcfa;
+    background: linear-gradient(180deg, #49bcfa 0%, #3d7ebc 100%);
+    color: #fafefd;
+
+}
+
+
+/* Esta es la segunda cancion */
+.srSantos {
+
+    position: relative;
+    top: 0;
+    height: 200px;
+
+}
+
+.tituloSegundaCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    left: 220px;
+    bottom: 200px;
+}
+
+.artistasSegundaCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 24px;
+    color: #6b6869;
+    position: relative;
+    left: 220px;
+    bottom: 200px;
+}
+
+.segundaCancion {
+
+    background-color: #e4e4e4;
+    height: 200px;
+    border-bottom: 1px solid #8b9598;
+    cursor: pointer;
+}
+
+.segundaCancion:hover {
+
+    background: #49bcfa;
+    background: linear-gradient(180deg, #49bcfa 0%, #3d7ebc 100%);
+    color: #fafefd;
+
+}
+
+
+/* Esta es la tercera cancion */
+
+.ultimoTour2 {
+
+    position: relative;
+    top: 0;
+    height: 200px;
+
+}
+
+.tituloTerceraCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    left: 220px;
+    bottom: 200px;
+}
+
+.artistasTerceraCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 24px;
+    color: #6b6869;
+    position: relative;
+    left: 220px;
+    bottom: 200px;
+}
+
+.terceraCancion {
+
+    background-color: #e4e4e4;
+    height: 200px;
+    border-bottom: 1px solid #8b9598;
+    cursor: pointer;
+}
+
+.terceraCancion:hover {
+
+    background: #49bcfa;
+    background: linear-gradient(180deg, #49bcfa 0%, #3d7ebc 100%);
+    color: #fafefd;
+
+}
+
+/* Esta es la cuarta cancion */
+
+.X100pre {
+
+    position: relative;
+    top: 0;
+    height: 200px;
+
+}
+
+.tituloCuartaCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    left: 220px;
+    bottom: 200px;
+}
+
+.artistasCuartaCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 24px;
+    color: #6b6869;
+    position: relative;
+    left: 220px;
+    bottom: 200px;
+}
+
+.cuartaCancion {
+
+    background-color: #e4e4e4;
+    height: 200px;
+    border-bottom: 1px solid #8b9598;
+    cursor: pointer;
+}
+
+.cuartaCancion:hover {
+
+    background: #49bcfa;
+    background: linear-gradient(180deg, #49bcfa 0%, #3d7ebc 100%);
+    color: #fafefd;
+
+}
+
+
+/* Esta es la quinta cancion */
+.kembaWalker {
+
+    position: relative;
+    top: 0px;
+    height: 200px;
+
+}
+
+.tituloQuintaCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    left: 220px;
+    bottom: 200px;
+}
+
+.artistasQuintaCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 24px;
+    color: #6b6869;
+    position: relative;
+    left: 220px;
+    bottom: 200px;
+}
+
+.quintaCancion {
+
+    background-color: #e4e4e4;
+    height: 200px;
+    border-bottom: 1px solid #8b9598;
+    cursor: pointer;
+}
+
+.quintaCancion:hover {
+
+    background: #49bcfa;
+    background: linear-gradient(180deg, #49bcfa 0%, #3d7ebc 100%);
+    color: #fafefd;
+
+}
+
+/* Esta es la sexta cancion */
+
+.harakiri {
+
+    position: relative;
+    top: 0;
+    height: 200px;
+
+}
+
+.tituloSextaCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    left: 220px;
+    bottom: 200px;
+}
+
+.artistasSextaCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 24px;
+    color: #6b6869;
+    position: relative;
+    left: 220px;
+    bottom: 200px;
+}
+
+.sextaCancion {
+
+    background-color: #e4e4e4;
+    height: 200px;
+    border-bottom: 1px solid #8b9598;
+    cursor: pointer;
+}
+
+.sextaCancion:hover {
+
+    background: #49bcfa;
+    background: linear-gradient(180deg, #49bcfa 0%, #3d7ebc 100%);
+    color: #fafefd;
+
+}
+
+/* Esta es la septima cancion */
+
+.primeraVez {
+
+    position: relative;
+    top: 0;
+    height: 200px;
+
+}
+
+.tituloSeptimaCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    left: 220px;
+    bottom: 200px;
+}
+
+.artistasSeptimaCancion {
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 24px;
+    color: #6b6869;
+    position: relative;
+    left: 220px;
+    bottom: 200px;
+}
+
+.septimaCancion {
+
+    background-color: #e4e4e4;
+    height: 200px;
+    border-bottom: 1px solid #8b9598;
+    cursor: pointer;
+}
+
+.septimaCancion:hover {
+
+    background: #49bcfa;
+    background: linear-gradient(180deg, #49bcfa 0%, #3d7ebc 100%);
+    color: #fafefd;
+
+}
+
+/* Footer */
+
+footer {
+
+    height: 130px;
+    background: #babcc2;
+    border-top: 2px solid #8b9598;
+    background: #b3b3b3;
+    background: linear-gradient(180deg, #b3b3b3 0%, #d8d8da 100%);
+
+}
